@@ -4,7 +4,7 @@ import { UserContext } from './context';
 
 const UserProvider = ({ children }) => {
 
-  const setUserDetails = ({ name, email, id }) => {
+  const setUserDetails = ({ name, email }) => {
     updateUserDetails(currentState => {
       const newState = {...currentState}
       return merge(newState, {

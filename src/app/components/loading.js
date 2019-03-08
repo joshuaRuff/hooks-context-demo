@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 
-import { LoadingContext }from '../../context/context';
+import { LoadingContext } from '../../context/context';
 
 const Loading = () => {
   const { loadingCount } = useContext(LoadingContext);
